@@ -1,0 +1,61 @@
+.gidav {
+	clear: both;
+	margin: 1.5em 0;
+}
+
+.gidav__fields {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(10em, 1fr));
+	gap: 0 1em;
+}
+
+.gidav__fields .form-row {
+	width: auto;
+	float: none;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.gidav__input {
+	font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+}
+
+.gidav__where {
+	margin: 0 0 1em;
+}
+
+.gidav__where summary {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.gidav__diagram {
+	display: block;
+	width: 100%;
+	max-width: 560px;
+	height: auto;
+	margin: 0.75em 0;
+}
+
+.gidav__error {
+	display: block;
+	margin-top: 0.25em;
+	color: #b81c23;
+	font-size: 0.9em;
+}
+
+.gidav__status:empty {
+	display: none;
+}
+
+.gidav__status {
+	color: #0f7b3e;
+	font-weight: 600;
+}
+
+.gidav__privacy {
+	font-size: 0.9em;
+	opacity: 0.85;
+}

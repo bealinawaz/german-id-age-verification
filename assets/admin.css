@@ -1,0 +1,40 @@
+.gidav-settings .notice.inline {
+	max-width: 960px;
+}
+
+.gidav-cats-box {
+	max-width: 420px;
+	max-height: 260px;
+	overflow: auto;
+	padding: 8px 12px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+}
+
+.gidav-cats,
+.gidav-cats ul {
+	margin: 0;
+}
+
+.gidav-cats ul {
+	margin-left: 1.5em;
+}
+
+.gidav-cats li {
+	margin: 4px 0;
+}
+
+.gidav-support {
+	max-width: 960px;
+	margin: 32px 0 0;
+	padding: 4px 20px 12px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-left: 4px solid #2271b1;
+}
+
+.gidav-support__actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+}
